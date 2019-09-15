@@ -1,0 +1,51 @@
+{
+  "_from": "cli-parameter-getter",
+  "_id": "cli-parameter-getter@1.0.7",
+  "_inBundle": false,
+  "_integrity": "sha1-TMu8BY+d7dSf4aOkLze6cmaVcHw=",
+  "_location": "/cli-parameter-getter",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cli-parameter-getter",
+    "name": "cli-parameter-getter",
+    "escapedName": "cli-parameter-getter",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cli-parameter-getter/-/cli-parameter-getter-1.0.7.tgz",
+  "_shasum": "4ccbbc058f9dedd49fe1a3a42f37ba726695707c",
+  "_spec": "cli-parameter-getter",
+  "_where": "/Users/j/workspace/lovecraft/source",
+  "author": {
+    "name": "Jota Feldmann"
+  },
+  "bugs": {
+    "url": "https://github.com/jotafeldmann/cli-parameter-getter/issues"
+  },
+  "bundleDependencies": false,
+  "config": {
+    "url": "https://github.com/jotafeldmann/cli-parameter-getter"
+  },
+  "deprecated": false,
+  "description": "Get parameters from Node.js CLI",
+  "homepage": "https://github.com/jotafeldmann/cli-parameter-getter#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "cli-parameter-getter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jotafeldmann/cli-parameter-getter.git"
+  },
+  "scripts": {
+    "start": "node $npm_package_main",
+    "test": ". tests/test.sh"
+  },
+  "version": "1.0.7"
+}

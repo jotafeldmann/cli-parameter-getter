@@ -1,0 +1,14 @@
+{
+  "name": "cli-parameter-getter-example",
+  "version": "1.0.7",
+  "description": "",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-parameter-getter": "^1.0.7"
+  }
+}
