@@ -45,7 +45,13 @@
   },
   "scripts": {
     "start": "node $npm_package_main",
-    "test": ". tests/test.sh"
+    "test": "mocha tests/**/*.spec.js"
   },
-  "version": "1.0.7"
+  "version": "1.0.7",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^6.2.0",
+    "sinon": "^7.5.0"
+  },
+  "dependencies": {}
 }
