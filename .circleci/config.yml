@@ -1,0 +1,16 @@
+version: 2.0
+
+jobs:
+  build:
+    docker:
+      - image: circleci/node:current
+    steps:
+      - run:
+          name: Running tests
+          command: make test
+
+workflows:
+  version: 2
+  test: 
+    jobs:
+      - build
