@@ -4,13 +4,13 @@ const { get } = require('../index')
 
 let sandbox = sinon.createSandbox()
 
+const defaultParameters = process.argv.slice(0, 2)
+
 const mockProcessWithValues = values =>
     sandbox
     .stub(process, 'argv')
     .value((Array.from(defaultParameters))
     .concat(Array.from(values)))
-
-const defaultParameters = process.argv.slice(0, 2)
 
 describe('CLI Parameter getter', () => {
     beforeEach(() => {
@@ -68,7 +68,7 @@ describe('CLI Parameter getter', () => {
             const result = get()
             expect(result[name]).to.be.equal(value)
         })
-        
+
         it('must return the \"parameter=value\" in the first position of array', () => {
             const name = 'cthulhu'
             const value = 'rises'
