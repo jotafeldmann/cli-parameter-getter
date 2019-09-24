@@ -38,7 +38,7 @@ describe('CLI Parameter getter', () => {
     })
     describe('in case of just one flag', () => {
         it('must return the parameter as a property', () => {
-            const parameters = 'xablau'
+            const parameters = '1337'
             mockProcessWithValues([parameters])
             const result = get()
             expect(result).to.have.property(parameters)
