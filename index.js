@@ -1,19 +1,20 @@
-function generateCliParameters () {
-    let parameters = []
-    let count = 0
-    process.argv.slice ( 2 ).forEach ( param => {
-        if ( param ) {
-            let paramArray = param.split ( '=' )
-            paramArray [ 1 ] = paramArray [ 1 ] || paramArray [ 0 ]
-            parameters [ paramArray [ 0 ] ] = paramArray [ 1 ]
-            parameters [ count ] =  {
-                name : paramArray [ 0 ],
-                value :  parameters [ paramArray [ 0 ] ]
-            }
-            count++
-        }
-    })
+const getParameter = param => param.split ( '=' )
+
+const getParameterFromString = (parameters, param, index) => {
+    let paramArray = getParameter(param)
+    const name = paramArray[0]
+    const value = paramArray[1] || name
+    parameters[name] = value
+    parameters[index] = {
+        name,
+        value,
+    }
     return parameters
 }
+
+const generateCliParameters = () => process.argv
+    .slice(2)
+    .reduce(getParameterFromString, [])
+
 
 exports.get = generateCliParameters
