@@ -44,13 +44,17 @@
     "url": "git+https://github.com/jotafeldmann/cli-parameter-getter.git"
   },
   "scripts": {
+    "cli": "node  -e \"const { get } = require('./index.js'); console.log(get())\"",
+    "dev": "nodemon npm start",
     "start": "node $npm_package_main",
-    "test": "mocha tests/**/*.spec.js"
+    "test": "mocha tests/**/*.spec.js",
+    "test:watch": "npm test -- -watch"
   },
   "version": "1.0.7",
   "devDependencies": {
     "expect.js": "^0.3.1",
     "mocha": "^6.2.0",
+    "nodemon": "^1.19.2",
     "sinon": "^7.5.0"
   },
   "dependencies": {}

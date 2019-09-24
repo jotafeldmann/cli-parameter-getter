@@ -61,8 +61,8 @@ describe('CLI Parameter getter', () => {
 
     describe('in case of \"parameter=value\"', () => {
         it('must return the \"parameter=value\"', () => {
-            const name = 'cthulhu'
-            const value = 'rises'
+            const name = 'port'
+            const value = '1337'
             const parameters = `${name}=${value}`
             mockProcessWithValues([parameters])
             const result = get()
