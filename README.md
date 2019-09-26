@@ -77,6 +77,7 @@ console.log(nameParameter)
 
 You can test the package:
 
+- From [your browser on Repl.it](https://repl.it/@jotafeldmann/cli-parameter-getter)
 - From [your browser on RunKit](https://runkit.com/jotafeldmann/cli-parameter-getter-example)
 
 ## How to dev
