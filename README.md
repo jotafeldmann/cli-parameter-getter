@@ -49,7 +49,7 @@ console.log(portParameter)
 ```
 
 
-### Get a parameter from mix situations
+### Get a parameter from mixed situations
 
 - You can use this:
 
@@ -88,3 +88,6 @@ node example.js port=1337 app-test
 
 - From [your browser on RunKit](https://runkit.com/jotafeldmann/cli-parameter-getter-example)
 
+## Links
+
+- [Circle CI](https://circleci.com/gh/jotafeldmann/cli-parameter-getter)
