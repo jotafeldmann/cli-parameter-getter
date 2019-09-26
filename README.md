@@ -88,6 +88,13 @@ node example.js port=1337 app-test
 
 - From [your browser on RunKit](https://runkit.com/jotafeldmann/cli-parameter-getter-example)
 
+## How to dev
+
+- Releases
+```
+npx release-it
+```
+
 ## Links
 
 - [Circle CI](https://circleci.com/gh/jotafeldmann/cli-parameter-getter)
