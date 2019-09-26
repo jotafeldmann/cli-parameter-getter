@@ -75,16 +75,7 @@ console.log(nameParameter)
 // { name: 'app-test', value: 'app-test' }
 ```
 
-You can test the example directly from:
-
-- The repo:
-
-```bash
-git clone https://github.com/jotafeldmann/cli-parameter-getter
-cd examples
-npm install
-node example.js port=1337 app-test
-```
+You can test the package:
 
 - From [your browser on RunKit](https://runkit.com/jotafeldmann/cli-parameter-getter-example)
 
