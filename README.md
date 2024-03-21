@@ -1,5 +1,7 @@
 # cli-parameter-getter [![CircleCI](https://circleci.com/gh/jotafeldmann/cli-parameter-getter.svg?style=svg)](https://circleci.com/gh/jotafeldmann/cli-parameter-getter)
 
+![https://img.shields.io/npm/v/cli-parameter-getter.svg?logo=npm](https://img.shields.io/npm/v/cli-parameter-getter.svg?logo=npm) ![https://img.shields.io/npm/dt/cli-parameter-getter.svg](https://img.shields.io/npm/dt/cli-parameter-getter.svg)
+
 From CLI you can get any parameter from it order or parameter name. Node.js version >= 6
 
 ```bash
