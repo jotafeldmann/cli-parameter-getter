@@ -1,4 +1,4 @@
-# cli-parameter-getter [![CircleCI](https://circleci.com/gh/jotafeldmann/cli-parameter-getter.svg?style=svg)](https://circleci.com/gh/jotafeldmann/cli-parameter-getter)
+# cli-parameter-getter [![Node.js CI](https://github.com/jotafeldmann/cli-parameter-getter/actions/workflows/node.js.yml/badge.svg)](https://github.com/jotafeldmann/cli-parameter-getter/actions/workflows/node.js.yml)
 
 [![https://www.npmjs.com/package/cli-parameter-getter](https://img.shields.io/npm/v/cli-parameter-getter.svg?logo=npm)](https://www.npmjs.com/package/cli-parameter-getter)
 [![https://img.shields.io/npm/dt/cli-parameter-getter.svg](https://img.shields.io/npm/dt/cli-parameter-getter.svg)](https://www.npmjs.com/package/cli-parameter-getter)
@@ -89,7 +89,3 @@ You can test the package:
 ```
 npx release-it
 ```
-
-## Links
-
-- [Circle CI](https://circleci.com/gh/jotafeldmann/cli-parameter-getter)
