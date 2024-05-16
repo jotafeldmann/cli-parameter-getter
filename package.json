@@ -1,6 +1,5 @@
 {
   "_from": "cli-parameter-getter",
-  "_id": "cli-parameter-getter@1.0.7",
   "_inBundle": false,
   "_integrity": "sha1-TMu8BY+d7dSf4aOkLze6cmaVcHw=",
   "_location": "/cli-parameter-getter",
@@ -50,7 +49,7 @@
     "test": "mocha tests/**/*.spec.js",
     "test:watch": "npm test -- -watch"
   },
-  "version": "1.0.8",
+  "version": "1.0.9",
   "devDependencies": {
     "expect.js": "^0.3.1",
     "mocha": "^6.2.0",
