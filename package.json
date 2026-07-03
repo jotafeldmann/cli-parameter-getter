@@ -52,9 +52,9 @@
   "version": "1.0.9",
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "mocha": "^6.2.0",
+    "mocha": "^11.7.6",
     "nodemon": "^1.19.2",
-    "release-it": "^12.4.1",
+    "release-it": "^20.2.1",
     "sinon": "^7.5.0"
   },
   "dependencies": {}
